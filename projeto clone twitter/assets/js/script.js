@@ -90,6 +90,3 @@ function listarTemplateTweet(tweet){
   feed.appendChild(li)
   textarea.value = ""
 }
-
-
-
