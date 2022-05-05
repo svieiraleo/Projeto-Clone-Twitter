@@ -43,7 +43,7 @@ tweetar.addEventListener('click', pegarTweet);
 function criarTweet(tweetTexto){
     
   let data = new Date();
-  let horaFormatada = data.getHours().toString().padStar(2, '0') + ':' + data.getMinutes().toString().padStart(2,'0');//Os parâmetros do método padStart são: o tamanho dastring final (no caso, 2), a string usada para preencherno início (no caso, '0').
+  let horaFormatada = data.getHours().toString().padStart(2, '0') + ':' + data.getMinutes().toString().padStart(2,'0');//Os parâmetros do método padStart são: o tamanho dastring final (no caso, 2), a string usada para preencherno início (no caso, '0').
   //Ou seja, se o valor for menor que 10 (como 1, porexemplo), o resultado será 01. Se o valor for maior que10, ele não é alterado (como 16, por exemplo).
   //OBJETO
   const tweet = {
