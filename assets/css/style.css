@@ -28,8 +28,7 @@ body{
     flex-basis: 30%;
     margin-top: 20px;
     margin-left: 30px;
-    
-    
+    min-width: 180px;
 }
 .cabecalho__logo{
     margin-bottom: 50px;
