@@ -34,12 +34,14 @@ body{
     margin-bottom: 50px;
 }
 .cabecalho__logo img{}
+
 .cabecalho__logo figcaption{
     display: none;
 }
 
 .cabecalho__menuNavegacao{}
 .cabecalho__menuLista{}
+
 .cabecalho__menuItem{
     margin-bottom: 25px;
 }
