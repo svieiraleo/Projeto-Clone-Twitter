@@ -1,30 +1,3 @@
-
-/**
- * 
- * DOM
- * Document Object Model(Modelo de Objeto do Documento)
- * 
- */
-
-/**
- * 
- * eventos
- * 
- * addEventListener
- * 
- * elemento.addEventListener('evento', função);
- * 
- */
-
-/**
- * passo a passo
- * 
- * 1º passo: capturar o valor da textarea para criar o tweet
- * 2º passo: construir o tweet
- * 3º passo: imprimir esse tweet
- * 
- */
-
 const textarea = document.querySelector('textarea');
 const tweetar = document.querySelector('button');
 const feed = document.querySelector(".conteudoPrincipal__listaTweets")
@@ -37,8 +10,6 @@ function pegarTweet(event) {
 }
 
 tweetar.addEventListener('click', pegarTweet);
-
-
 
 function criarTweet(tweetTexto){
     
@@ -55,8 +26,7 @@ function criarTweet(tweetTexto){
     tempo:`${horaFormatada}`
   }
   
-  listarTemplateTweet(tweet);
-    
+  listarTemplateTweet(tweet);  
 }
 
 function listarTemplateTweet(tweet){

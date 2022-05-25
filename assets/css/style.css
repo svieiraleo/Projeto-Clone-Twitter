@@ -13,16 +13,13 @@ font-family: 'Roboto', sans-serif;
 body{
     font-family: 'Roboto', sans-serif;
 }
-
 .container{
-    
     width: 100%;/* como o container é filho do body, o
     width 100% vai pegar todo o espaço do elemento pai, do body, no caso */
     max-width: 900px;
     margin: 0 auto;
     display: flex;
 }
-
 /* CABEÇALHO */
 .cabecalho{
     flex-basis: 30%;
@@ -33,15 +30,9 @@ body{
 .cabecalho__logo{
     margin-bottom: 50px;
 }
-.cabecalho__logo img{}
-
 .cabecalho__logo figcaption{
     display: none;
 }
-
-.cabecalho__menuNavegacao{}
-.cabecalho__menuLista{}
-
 .cabecalho__menuItem{
     margin-bottom: 25px;
 }
@@ -56,12 +47,9 @@ body{
     font-weight: bold;
     padding-left: 10px;
 }
-
 a:hover{
    color: #1da1f2; 
 }
-
-
 /* CONTEUDO PRINCIPAL */
 .conteudoPrincipal{
     flex-basis: 70%;
@@ -74,7 +62,6 @@ a:hover{
     font-weight: bold ;
     font-size: 20px;
 }
-
 .conteudoPrincipal__formulario{
     padding: 10px 30px;
     border-top: 1px solid #e7ecf0;
@@ -96,8 +83,6 @@ a:hover{
     color: white;
     border-radius: 15px;
 }
-
-.conteudoPrincipal__feed{}
 .conteudoPrincipal__listaTweets{
     display: flex;
     flex-flow: column-reverse nowrap;
@@ -108,8 +93,6 @@ a:hover{
     align-items: flex-start;
     border-bottom: 1px solid #e7ecf0
 }
-
-.tweet__fotoPerfil{}
 .tweet__conteudo{
     margin-left: 15px;
 }
