@@ -57,7 +57,7 @@ function listarTemplateTweet(tweet){
   //ADICIONANDO ELEMENTOS DENTRO DA LI
   li.appendChild(img)
   li.appendChild(div)
-  
   feed.appendChild(li)
+  
   textarea.value = ""
 }
